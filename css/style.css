@@ -1,0 +1,141 @@
+/*
+ *******************
+ * PAGE MAIN STYLE *
+ *******************
+*/
+
+section {
+    background: #fff;
+}
+
+main h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    background: #fffbe6;
+    color: #356857;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 3px solid #37966f;
+    border-left: 1px solid #37966f;
+    padding: 5px;
+}
+
+.menu ul li ul li a {
+    background: #fffbe6;
+    color: #356857;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #37966f;
+    font-size: 14px;
+}
+
+.menu li a:hover {
+    background: #b9e4c9;
+    transition: .5s;
+}
+
+.menu ul li ul li a:hover {
+    padding-left: 15px;
+}
+
+/* EXAMPLE SECTION */
+
+section.example {
+    width: 100%;
+    margin-top: 30px;
+    display: inline-flex;
+}
+
+.example .cards {
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+.example article {
+    float: left;
+}
+
+/* STUDENT TABLE */
+
+.studentTable {
+    width: 100%;
+    margin: 30px 10px 10px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    background: #ddd;
+    border-bottom: 2px solid white;
+}
+
+.tableTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.studentSkill {
+    font-size: 20px;
+}
+
+.studentSkill:hover {
+    transition: 1.5s;
+    color: #37966f;
+
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+}
